@@ -1,7 +1,11 @@
-import Image from "next/image";
+'use client';
+import {Button} from '@nextui-org/button';
 
 export default function Home() {
   return (
-    <h1>Emarh Events</h1>
+    <div className="p-10">
+      <h1>Emarh Events</h1>
+      <Button color='primary' variant='bordered'>Click me</Button>
+    </div>
   );
 }
